@@ -1,0 +1,277 @@
+*{
+    Margin: 0;
+    Padding: 0;
+    font-family: "Google Sans", sans-serif;
+    border: boder-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+.navbar{
+    height: 60px;
+    background-color:#198181;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;   
+}
+
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url('flipkart.png');
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+ /* box1 */
+ .first{
+    font-size: 0.85rem;
+    color: #cccccc;
+    font-weight: 400;
+    margin-left: 15px;
+ }
+ .second{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 3px;
+ }
+ .icon{
+    display: flex;
+ }
+/* box2 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:pink;
+    width: 45%;
+    height: 35px;
+    border-radius: 6px;
+}
+
+.search{
+    background: color #f3f3f3;
+    width: 47px;
+     
+     text-align: center;
+     border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border: none;
+
+}
+.nav-search :hover{
+    border: 2px solid #febd68;
+}
+.xyz{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: #febd68;
+    font-size: 1.2rem;
+     border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        color: black;
+}
+/* flag/EN */
+.lang{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.flag{
+    height: 20px;
+    width: 25px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MCA0MCI+CiAgPGRlZnM+CiAgICA8Y2xpcFBhdGggaWQ9InQiPgogICAgICA8cGF0aCBkPSJNMzAsMEg2MHY0MEgzMHoiLz4KICAgIDwvY2xpcFBhdGg+CiAgPC9kZWZzPgogIDxyZWN0IHdpZHRoPSI2MCIgaGVpZ2h0PSI0MCIgZmlsbD0iIzAxMjE2OSIvPgogIDxwYXRoIGQ9Ik0wLDAgbDYwLDQwIG0wLC00MCBsLTYwLDQwIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iOCIvPgogIDxwYXRoIGQ9Ik0wLDAgbDYwLDQwIG0wLC00MCBsLTYwLDQwIiBjbGlwLXBhdGg9InVybCgjdCkiIHN0cm9rZT0iI0MxMDAyRCIgc3Ryb2tlLXdpZHRoPSI1Ii8+CiAgPHBhdGggZD0iTTMwLDAgdjQwIG0tMzAsLTIwIGg2MCIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjEzIi8+CiAgPHBhdGggZD0iTTMwLDAgdjQwIG0tMzAsLTIwIGg2MCIgc3Ryb2tlPSIjQzEwMDJEIiBzdHJva2Utd2lkdGg9IjgiLz4KPC9zdmc+');
+    
+}
+.language-text{
+    margin-left: 5px;
+}
+.dropdown-arrow{
+    
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #ccc;
+  margin-left: 2px;
+}
+/* sin */
+.x{
+    font-size: 0.85rem;
+    color: #cccccc;
+    font-weight: 400;
+    margin-left: 15px;
+ }
+ .y{
+    font-size: 1rem;
+    font-weight:400;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+ }
+    /* return */
+    .A{
+        font-size: 0.85rem;
+        color: #cccccc;
+        font-weight: 400;
+       
+    }
+    .b{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 3px;
+        display: flex;
+        align-items: center;
+    }
+    /* cart */
+    .cart{
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+        color: white;
+    }
+    .s{
+        font-size: 0.90rem;
+        font-weight: 600;
+        margin-left: -5px;
+    }
+    /* PANEL */
+    .panel{
+        height: 40px;
+        background-color: #222f3d;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+    }
+    .PANEL-OPTIONS p {
+        display: inline;
+        margin: 15px;
+        
+    }
+    .PANEL-OPTIONS{
+        width: 70%;
+        font-size: 0.85ren;
+    }
+    .y{
+        font-size: 0.9rem;
+        font-weight: 700;
+
+
+    }
+    /* hero */
+    .hero-section{
+        background-image: url("hero.jpg");
+        background-size: cover;
+        height:350px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+    }
+    /* msg */
+    .msg{
+        background-color: white;
+        color: black;
+        height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.85rem;
+        bottom: 225px;
+        width: 94%;
+        margin-bottom: 25px;
+    }
+    .msg a{
+        color: #007185;
+
+    }
+    /* shopby catagry */
+    .shop{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #f3f3f3;
+    }
+    .box{
+        /* border: 2px solid black ; */
+        height: 410px;
+        width: 24%;
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 15px;
+    }
+    .box-img{
+        background-image: url("game.jpg");
+        height: 86%;
+        background-size: cover;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        
+    }
+
+    .box1 p{
+        color: blue;
+        
+    }
+    /* footer */
+    footer{
+        margin-top: 20px;
+    }
+    .foot1{
+        background-color: #37475a;
+        color: white;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.90rem;
+    }
+
+    .foot2{
+        background-color: #222f3d;
+        color: White;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    ul a{
+        display: block;
+        font-size: 0.85rem;
+        margin-top: 10px;
+        color: #dddddd;
+    }
+    .foot-panel3{
+        background-color: #222f3d;
+        color: white;
+        border-top: 0.5px solid white;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo2{
+        height: 40px;
+        width: 120px;
+        background-image: url('flipkart.png');
+        background-size: cover;
+        margin-top: 20px;
+    }
+        
+    
